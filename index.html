@@ -7,11 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="images/Audivity.png">
     <title>Audivity</title>
-    <link href="https://fonts.googleapis.com/css?family=MontserratOpen+Sans" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=MontserratOpen+Sans" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
     <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.1.2/dist/css/ionicons.min.css" rel="stylesheet">
     
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
     <link href="css/magnific-popup.css" rel="stylesheet">
     <link href="css/fakeLoader.css" rel="stylesheet" />
     <link href="css/animate.min.css" rel="stylesheet">
@@ -67,10 +72,33 @@
                 <div class="header-content-t-c">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-12 col-sm-12">
-                                <h1 class="m-bottom-50 white-text text-capitalize header-title">Convert your blogs<br>into professional podcasts</h1>
-                                <p class="m-bottom-40 white-text">Less than 3 hours. Seriously.</p>
-                                <a href="#portfolio" class="btn default-btn color-btn smooth-scroll">Convert your content »</a>
+                            <div class="col-md-5">
+                                <h1 class="white-text text-capitalize header-title">Convert your blogs<br>into professional podcasts</h1>
+                                <p class="m-bottom-30 m-top-30 white-text">Less than 3 hours. Seriously.</p>
+                                <a href="http://beta.audivity.com" class="btn default-btn color-btn smooth-scroll">Convert your content »</a>
+                            </div>
+                            <div class="col-md-6 offset-md-1">
+                                <div class="row">
+                                    <div class="col-md-6 col-xs-6">
+                                        <div class="card first">
+                                            <div class="card-body">
+                                                <img class="img-fluid" src="images/block.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-xs-6">
+                                        <div class="card">
+                                            <div class="card-body audio-player">
+                                                <p class="card-player">
+                                                    <audio controls>
+                                                        <source src="horse.ogg" type="audio/ogg">
+                                                        <source src="horse.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+                                                    </audio>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <!--end row-->
@@ -91,7 +119,6 @@
                 <div class="col-sm-12">
                     <div class="section-top text-center">
                         <h3>Why Covert?</h3>
-                        <p class="m-top-10">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
                     </div>
                     <!--end section-top-->
                 </div>
@@ -99,37 +126,45 @@
             <div class="row m-top-60">
                 <div class="col-md-3 col-sm-6">
                     <div class="single-service text-center wow animated fadeIn" data-wow-duration="1s" data-wow-delay=".4s">
-                        <img src="images/s1.png" alt="service-icon">
+                        <i class="fa fa-4x fa-signal"></i>
                         <h5 class="m-top-20 m-bottom-10">Increase Traffic</h5>
-                        <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book error sit
-                            voluptatem accusantium doloremque laudantium.</p>
                     </div>
                     <!--end single-service-->
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="single-service text-center wow animated fadeIn" data-wow-duration="1s" data-wow-delay=".6s">
-                        <img src="images/s2.png" alt="service-icon">
+                        <a class="graph__link" href="http://squiz.net" target="_blank">
+                            <svg class="graph" xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 164 164">
+                                <circle class="graph__bg" cx="82" cy="82" r="82"></circle>
+                                <path class="graph-white graph__star--green" d="M135 49.4l-10.2-1.5-4.6-9.5-4.6 9.5-10.2 1.5 7.4 7.4-1.8 10.5 9.2-4.9 9.2 4.9-1.8-10.5z"
+                                    data-svg-origin="105.40000915527344 38.400001525878906" style="transform: matrix(1, 0, 0, 1, 0, 0);"></path>
+                                <path class="graph-white graph__star--red" d="M95.9 69.2l-10.2-1.5-4.6-9.6-4.6 9.6-10.2 1.5 7.4 7.4-1.8 10.5 9.2-5 9.2 5-1.8-10.5z"
+                                    data-svg-origin="66.30001068115234 20.100000381469727" style="transform: matrix(1, 0, 0, 1, 0, 0);"></path>
+                                <path class="graph-white graph__star--yellow" d="M56.8 59.9l-10.2-1.6-4.6-9.5-4.6 9.5-10.2 1.6 7.4 7.4-1.7 10.5 9.1-5 9.2 5-1.8-10.5z"
+                                    data-svg-origin="27.200000762939453 48.80000305175781" style="transform: matrix(1, 0, 0, 1, 0, 0);"></path>
+                                <path class="graph-white graph__bar--yellow" d="M103.3 71.7H136v56h-32.7z" data-svg-origin="119.6500015258789 127.69999694824219"
+                                    style="transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);"></path>
+                                <path class="graph-white graph__bar--green" d="M64.8 94.1h32.7v33.6H64.8z" data-svg-origin="81.1500015258789 127.69999694824219"
+                                    style="transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);"></path>
+                                <path class="graph-white graph__bar--red" d="M26.4 81.5h32.7v45.6H26.4z" data-svg-origin="42.74999809265137 127.0999984741211"
+                                    style="transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);"></path>
+                            </svg>
+                        </a>
                         <h5 class="m-top-20 m-bottom-10">Diversify Revenue</h5>
-                        <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book error sit
-                            voluptatem accusantium doloremque laudantium.</p>
                     </div>
                     <!--end single-service-->
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <div class="single-service text-center wow animated fadeIn" data-wow-duration="1s" data-wow-delay=".8s">
-                        <img src="images/s6.png" alt="service-icon">
-                        <h5 class="m-top-20 m-bottom-10">Increase Content Variety</h5>
-                        <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book error sit
-                            voluptatem accusantium doloremque laudantium.</p>
+                    <div class="single-service text-center wow animated fadeIn" data-wow-duration="1s" data-wow-delay=".8s">                       
+                        <i class="fa fa-podcast fa-4x podcast-icon"></i>
+                        <h5 class="m-top-20 m-bottom-10">Content Variety</h5>
                     </div>
                     <!--end single-service-->
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <div class="single-service text-center wow animated fadeIn" data-wow-duration="1s" data-wow-delay="1s">
-                        <img src="images/s4.png" alt="service-icon">
+                    <div class="single-service text-center wow animated fadeIn" data-wow-duration="1s" data-wow-delay="1s">                        
+                        <i class="fa fa-users fa-4x"></i>
                         <h5 class="m-top-20 m-bottom-10">Build a Loyal Following</h5>
-                        <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book error sit
-                            voluptatem accusantium doloremque laudantium.</p>
                     </div>
                     <!--end single-service-->
                 </div>
@@ -141,49 +176,58 @@
     <!--end service-->
     <div class="fun-fact">
         <div class="fun-fact-content section-padding">
+             <div class="light-overlay"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="section-top text-center">
                             <h3 class="white-text">How Audivity Works</h3>
-                            <p class="m-top-10 white-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
                         </div>
                         <!--end section-top-->
                     </div>
                 </div>
                 <div class="row m-top-60">
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-3 col-md-offset-1 col-sm-6">
                         <div class="single-fact text-center wow animated fadeInUp" data-wow-duration=".5s" data-wow-delay=".4s">
                             <span class="white-text">
-                                <i class="fa fa-file-text-o"></i>
+                                <i class="fa fa-file-pdf fa-2x"></i>
                             </span>
-                            <h2 class="count white-text">230</h2>
                             <h6 class="white-text">Select your Article</h6>
                         </div>
                         <!--end single-fact-->
                     </div>
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-1">
+                        <div class="chevron"></div>
+                        <div class="chevron"></div>
+                        <div class="chevron"></div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
                         <div class="single-fact text-center wow animated fadeInUp" data-wow-duration=".5s" data-wow-delay=".6s">
                             <span class="white-text">
-                                <i class="fa fa-microphone"></i>
+                                <i class="fa fa-microphone fa-2x"></i>
                             </span>
-                            <h2 class="count white-text">955</h2>
                             <h6 class="white-text">Choose favorite Voice</h6>
                         </div>
                         <!--end single-fact-->
                     </div>
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-1">
+                        <div class="chevron"></div>
+                        <div class="chevron"></div>
+                        <div class="chevron"></div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
                         <div class="single-fact text-center wow animated fadeInUp" data-wow-duration=".5s" data-wow-delay=".8s">
                             <span class="white-text">
-                                <i class="fa fa-check"></i>
+                                <i class="fa fa-check fa-2x"></i>
                             </span>
-                            <h2 class="count white-text">2970</h2>
                             <h6 class="white-text">Review & Publish</h6>
                         </div>
                         <!--end single-fact-->
                     </div>
+                </div>
+                <div class="row m-top-40">
                     <div class="col-md-12 col-sm-12 text-center">
-                        <a href="" class="btn default-btn color-btn smooth-scroll">Convert your content</a>
+                        <a href="" class="btn default-btn color-btn smooth-scroll">Convert your content »</a>
                     </div>
                 </div>
                 <!--end row-->
@@ -200,8 +244,8 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="section-top text-center">
-                            <h3 class="white-text">contact me</h3>
-                            <p class="m-top-10 white-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                            <h3 class="white-text">Contact Us</h3>
+                            <p class="m-top-10 white-text">Let us know what you're thinking. Feel free to reach out.</p>
                         </div>
                         <!--end section-top-->
                     </div>
@@ -215,7 +259,7 @@
                             </span>
                             <div class="address-in">
                                 <h6 class="text-capitalize white-text">address</h6>
-                                <small>32 h/m road, sanfrancisco</small>
+                                <small>44 E. 3rd Avenue, San Mateo CA 94401.</small>
                             </div>
                         </div>
                         <div class="address-i m-bottom-40 wow animated fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
@@ -224,7 +268,7 @@
                             </span>
                             <div class="address-in">
                                 <h6 class="text-capitalize white-text">email</h6>
-                                <small>johnDoe@gmail.com</small>
+                                <small>support@audivity.com</small>
                             </div>
                         </div>
                         <div class="address-i m-bottom-40 wow animated fadeIn" data-wow-duration="1s" data-wow-delay=".4s">
@@ -233,7 +277,7 @@
                             </span>
                             <div class="address-in">
                                 <h6 class="text-capitalize white-text">cell</h6>
-                                <small>0012 675 3485 5872</small>
+                                <small>+1 520 248 6108</small>
                             </div>
                         </div>
                     </div>
@@ -272,7 +316,7 @@
                             </div>
                             <div class="col-md-12 col-sm-12">
                                 <div class="form-group">
-                                    <button type="submit" class="btn default-btn color-btn">send now</button>
+                                    <button type="submit" class="btn default-btn color-btn">Send »</button>
                                 </div>
                             </div>
                         </form>
@@ -336,6 +380,59 @@
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/jquery.scrollToTop.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.3/TweenMax.min.js"></script>
+    <script>
+        var $graphBarGreen, $graphBarRed, $graphBarYellow, $graphLink, $graphStarGreen, $graphStarRed, $graphStarYellow, graphDuration, graphTFOrigin;
+
+        $graphLink = $('.graph__link');
+        $graphBarRed = $('.graph__bar--red');
+        $graphBarGreen = $('.graph__bar--green');
+        $graphBarYellow = $('.graph__bar--yellow');
+        $graphStarYellow = $('.graph__star--yellow');
+        $graphStarRed = $('.graph__star--red');
+        $graphStarGreen = $('.graph__star--green');
+        graphTFOrigin = '50% bottom';
+        graphDuration = 1.2;
+
+        $graphLink.parent().hover((function () {
+            TweenMax.to($graphBarRed, graphDuration, {
+                scaleY: 1.5,
+                transformOrigin: graphTFOrigin,
+                ease: Elastic.easeOut.config(1, 0.2)
+            });
+            TweenMax.to($graphBarGreen, graphDuration, {
+                scaleY: 2.3,
+                transformOrigin: graphTFOrigin,
+                ease: Elastic.easeOut.config(1, 0.2)
+            });
+            TweenMax.to($graphBarYellow, graphDuration, {
+                scaleY: 1.3,
+                transformOrigin: graphTFOrigin,
+                ease: Elastic.easeOut.config(1, 0.2)
+            });
+            TweenMax.to($graphStarYellow, graphDuration, {
+                y: -25,
+                ease: Elastic.easeOut.config(1, 0.2)
+            });
+            TweenMax.to($graphStarRed, graphDuration, {
+                y: -45,
+                ease: Elastic.easeOut.config(1, 0.2)
+            });
+            TweenMax.to($graphStarGreen, graphDuration, {
+                y: -17,
+                ease: Elastic.easeOut.config(1, 0.2)
+            });
+        }), function () {
+            TweenMax.to([$graphBarRed, $graphBarGreen, $graphBarYellow], graphDuration, {
+                scaleY: 1,
+                ease: Elastic.easeOut.config(1, 0.2)
+            });
+            TweenMax.to([$graphStarRed, $graphStarGreen, $graphStarYellow], graphDuration, {
+                y: 0,
+                ease: Elastic.easeOut.config(1, 0.2)
+            });
+        });
+    </script>
 </body>
 
 </html>
